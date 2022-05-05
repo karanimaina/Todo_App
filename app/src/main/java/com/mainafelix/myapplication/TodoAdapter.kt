@@ -38,7 +38,7 @@ class TodoAdapter(
 
         }
     }
-    fun addTodoItem(todo :Todo){
+    fun addTodoItem (todo :Todo){
         todos.add(todo)
         notifyItemInserted(todos.size-1)
     }
