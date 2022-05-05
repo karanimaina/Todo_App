@@ -16,6 +16,7 @@ class TodoAdapter(
         val tvTitle: TextView = itemView.findViewById(R.id.tvTitle)
         val cbDone: CheckBox =itemView.findViewById(R.id.cbdone)
 
+
     }
 
 
