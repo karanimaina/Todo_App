@@ -1,8 +1,5 @@
 package com.mainafelix.myapplication
 
-data class Todo {
+data class Todo (
     val title :String,
-    val isChecked: Boolean = false
-
-
-}
+    val isChecked: Boolean = false)
