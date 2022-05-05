@@ -18,11 +18,12 @@
 
     <EditText
         android:id="@+id/etToDoTitle"
-        android:layout_width="147dp"
-        android:layout_height="50dp"
+        android:layout_width="187dp"
+        android:layout_height="46dp"
         android:layout_marginBottom="28dp"
         android:hint="Enter Todo Title"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnAddTodo"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -38,8 +39,8 @@
 
     <Button
         android:id="@+id/btnDeletedoneTodo"
-        android:layout_width="126dp"
-        android:layout_height="50dp"
+        android:layout_width="93dp"
+        android:layout_height="46dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
         android:background="#d6cccb"
