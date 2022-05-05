@@ -5,19 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvTodo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="8dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/etToDoTitle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/etToDoTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="147dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="28dp"
         android:hint="Enter Todo Title"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,22 +27,22 @@
 
     <Button
         android:id="@+id/btnAddTodo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="32dp"
-        android:text="ADD TODO"
         android:background="#d6cccb"
+        android:text="ADD TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnDeletedoneTodo" />
 
     <Button
         android:id="@+id/btnDeletedoneTodo"
-        android:layout_width="wrap_content"
-        android:background="#d6cccb"
-        android:layout_height="wrap_content"
+        android:layout_width="126dp"
+        android:layout_height="50dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
+        android:background="#d6cccb"
         android:text="DELETE DONE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
