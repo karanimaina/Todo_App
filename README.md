@@ -19,8 +19,9 @@ This an application that helps a user to create a list of to do items, the user 
  <li>the app launches and the user is able to see the the text entry point of two texts</li>
  <li>upon adding the goal the data gets saved</li>
  <li>the todo_item can then be checked  upon completion and also deleted</li>
+ 
  # Contribution
- for any cntribution to this repo holla me via karani.maina2010@gmail.com, tou can fork or add a cotribution to this repository
+ for any cntribution to this repo holla me via karani.maina2010@gmail.com/, tou can fork or add a cotribution to this repository
  
  # License 
  MIT License
