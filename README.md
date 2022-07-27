@@ -13,6 +13,7 @@ This an application that helps a user to create a list of to do items, the user 
  <li>on the terminal navigate to the cloned folder</li>
  <li>type ./studio.sh on the android idea evironment</li>
  <li>open the project</li>
+ 
  # BDD
  <li>change the run method to application, select the device to launch the app and  click on the green button</li>
  <li>the app launches and the user is able to see the the text entry point of two texts</li>
